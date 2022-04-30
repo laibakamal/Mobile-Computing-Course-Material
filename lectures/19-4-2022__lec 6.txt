@@ -1,0 +1,17 @@
+//lec 6
+
+slides:
+barrier
+guidelines
+wrap content, match constraint
+//3 button example: third button pe agr match constraint ki property apply kren tou wo ek hud tak usy follow kr sky ga aur phir ek waqt aaye ga  k wo match constraint ko follow nahi kr paaye ga aur us pe wrap content ki property apply hojae gi
+
+align horizontally
+align vertically
+expand horizontally
+expand vertically
+constraint baseline
+constraint center
+
+less pixels --> low quality pic
+

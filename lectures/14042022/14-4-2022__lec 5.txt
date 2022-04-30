@@ -1,0 +1,56 @@
+public class MainACtivity extends AppCompatActivity
+{
+	Button button;
+	Text textView;
+
+	@override
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);//this method binds coding file to GUI and our GUI is in XML form.
+		//is line me hum bta rhy hein k code walay button ko GUI k kis button k sath bind krna hai
+		button=findViewById(R.Id.button2);//button2 is id of button
+		textView=findViewById(R.id.textView);//textView is id of textView
+
+		button.setOnClickListener(new View.OnClickListener)
+		{
+			@override
+			public void onClick(View view)
+			{
+				//method 1
+				textView.setText("AOA");
+			}
+			
+		}
+		//method 2
+		//call this function in the properties of button
+		public voidWriteText(View view)
+		{
+			textView.setText("AOA");
+		}
+		
+	}
+
+}
+
+
+//SLIDES
+//View group is same as body of html. 
+
+//button and text view are wrapped in constraint layout. jese hi koi activity create hoti hai, ye layout automatically ban jata hai.
+
+//linear layout
+
+//both linear and constraint layout can be used.
+
+//linear layout me cheezain horizontally ya vertically apus me set hoti hein.
+
+//XML
+
+//Constraint layout is part of android jetpack and the jetpack components start with androidx.
+
+//if we don't set constraints, tou UI k components 0,0 pe move kr jayen gy. 
+
+//wrap content
+
+//match parent

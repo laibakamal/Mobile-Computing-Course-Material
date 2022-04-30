@@ -1,0 +1,11 @@
+//make a counter :
+3 button: increase, decrease, reset
+
+//layouts
+//constraints
+//landscape wala view 
+//constraints'
+
+
+
+//NO SLIDES
