@@ -4,7 +4,6 @@
 //layouts
 //constraints
 //landscape wala view 
-//constraints'
 
 
 
